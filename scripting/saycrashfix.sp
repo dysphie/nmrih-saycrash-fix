@@ -1,5 +1,3 @@
-#include <dhooks>
-
 public Plugin myinfo = {
 	name        = "[NMRiH] Host_Say Crash Fix",
 	author      = "Dysphie",
