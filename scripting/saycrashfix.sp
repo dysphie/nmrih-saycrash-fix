@@ -1,5 +1,13 @@
 #include <dhooks>
 
+public Plugin myinfo = {
+	name        = "[NMRiH] Host_Say Crash Fix",
+	author      = "Dysphie",
+	description = "Fixes crash when host tries to use \"say\"",
+	version     = "1.0.0",
+	url         = ""
+};
+
 public void OnPluginStart()
 {
 	GameData gd = new GameData("saycrashfix.games");
