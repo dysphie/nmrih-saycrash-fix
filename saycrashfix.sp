@@ -9,6 +9,7 @@ public void OnPluginStart()
 		SetFailState("Failed to detour Host_Say");
 	hostSay.Enable(Hook_Pre, Host_Say);
 	delete hostSay;
+	delete gd;
 }
 
 public MRESReturn Host_Say()
